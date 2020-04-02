@@ -44,6 +44,7 @@ function(compiler_id_detection outvar lang)
     if (lang STREQUAL CXX)
       list(APPEND ordered_compilers
         Comeau
+        Circle
       )
     endif()
     list(APPEND ordered_compilers
